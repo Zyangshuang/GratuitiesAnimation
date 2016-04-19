@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005F9F601CC63DBF00ACEA29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9F5F1CC63DBF00ACEA29 /* main.m */; };
+		005F9F631CC63DBF00ACEA29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9F621CC63DBF00ACEA29 /* AppDelegate.m */; };
+		005F9F661CC63DBF00ACEA29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9F651CC63DBF00ACEA29 /* ViewController.m */; };
+		005F9F691CC63DBF00ACEA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005F9F671CC63DBF00ACEA29 /* Main.storyboard */; };
+		005F9F6B1CC63DBF00ACEA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005F9F6A1CC63DBF00ACEA29 /* Assets.xcassets */; };
+		005F9F6E1CC63DBF00ACEA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005F9F6C1CC63DBF00ACEA29 /* LaunchScreen.storyboard */; };
+		005F9F791CC63DBF00ACEA29 /* GratuitiesAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9F781CC63DBF00ACEA29 /* GratuitiesAnimationTests.m */; };
+		005F9F841CC63DBF00ACEA29 /* GratuitiesAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9F831CC63DBF00ACEA29 /* GratuitiesAnimationUITests.m */; };
+		005F9F9E1CC63EBF00ACEA29 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9F9D1CC63EBF00ACEA29 /* UIView+Frame.m */; };
+		005F9FA21CC63FAB00ACEA29 /* ZYSGratuityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9FA11CC63FAB00ACEA29 /* ZYSGratuityView.m */; };
+		005F9FA51CC6413100ACEA29 /* GratuityAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9FA41CC6413100ACEA29 /* GratuityAlertView.m */; };
+		005F9FA81CC6469F00ACEA29 /* GratuityOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9FA71CC6469F00ACEA29 /* GratuityOneViewController.m */; };
+		005F9FAB1CC646BB00ACEA29 /* GratuityTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F9FAA1CC646BB00ACEA29 /* GratuityTwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005F9F751CC63DBF00ACEA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005F9F531CC63DBF00ACEA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005F9F5A1CC63DBF00ACEA29;
+			remoteInfo = GratuitiesAnimation;
+		};
+		005F9F801CC63DBF00ACEA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005F9F531CC63DBF00ACEA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005F9F5A1CC63DBF00ACEA29;
+			remoteInfo = GratuitiesAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005F9F5B1CC63DBF00ACEA29 /* GratuitiesAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GratuitiesAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F9F5F1CC63DBF00ACEA29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		005F9F611CC63DBF00ACEA29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		005F9F621CC63DBF00ACEA29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		005F9F641CC63DBF00ACEA29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		005F9F651CC63DBF00ACEA29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		005F9F681CC63DBF00ACEA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		005F9F6A1CC63DBF00ACEA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005F9F6D1CC63DBF00ACEA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		005F9F6F1CC63DBF00ACEA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F9F741CC63DBF00ACEA29 /* GratuitiesAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratuitiesAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F9F781CC63DBF00ACEA29 /* GratuitiesAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GratuitiesAnimationTests.m; sourceTree = "<group>"; };
+		005F9F7A1CC63DBF00ACEA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F9F7F1CC63DBF00ACEA29 /* GratuitiesAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratuitiesAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F9F831CC63DBF00ACEA29 /* GratuitiesAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GratuitiesAnimationUITests.m; sourceTree = "<group>"; };
+		005F9F851CC63DBF00ACEA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F9F9C1CC63EBF00ACEA29 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		005F9F9D1CC63EBF00ACEA29 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		005F9F9F1CC63EFF00ACEA29 /* FramePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FramePCH.pch; sourceTree = "<group>"; };
+		005F9FA01CC63FAB00ACEA29 /* ZYSGratuityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSGratuityView.h; sourceTree = "<group>"; };
+		005F9FA11CC63FAB00ACEA29 /* ZYSGratuityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSGratuityView.m; sourceTree = "<group>"; };
+		005F9FA31CC6413100ACEA29 /* GratuityAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GratuityAlertView.h; sourceTree = "<group>"; };
+		005F9FA41CC6413100ACEA29 /* GratuityAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GratuityAlertView.m; sourceTree = "<group>"; };
+		005F9FA61CC6469F00ACEA29 /* GratuityOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GratuityOneViewController.h; sourceTree = "<group>"; };
+		005F9FA71CC6469F00ACEA29 /* GratuityOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GratuityOneViewController.m; sourceTree = "<group>"; };
+		005F9FA91CC646BB00ACEA29 /* GratuityTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GratuityTwoViewController.h; sourceTree = "<group>"; };
+		005F9FAA1CC646BB00ACEA29 /* GratuityTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GratuityTwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005F9F581CC63DBF00ACEA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F9F711CC63DBF00ACEA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F9F7C1CC63DBF00ACEA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005F9F521CC63DBF00ACEA29 = {
+			isa = PBXGroup;
+			children = (
+				005F9F5D1CC63DBF00ACEA29 /* GratuitiesAnimation */,
+				005F9F771CC63DBF00ACEA29 /* GratuitiesAnimationTests */,
+				005F9F821CC63DBF00ACEA29 /* GratuitiesAnimationUITests */,
+				005F9F5C1CC63DBF00ACEA29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005F9F5C1CC63DBF00ACEA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				005F9F5B1CC63DBF00ACEA29 /* GratuitiesAnimation.app */,
+				005F9F741CC63DBF00ACEA29 /* GratuitiesAnimationTests.xctest */,
+				005F9F7F1CC63DBF00ACEA29 /* GratuitiesAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005F9F5D1CC63DBF00ACEA29 /* GratuitiesAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				005F9F911CC63E4000ACEA29 /* Categorys */,
+				005F9F921CC63E4000ACEA29 /* MyTools */,
+				005F9F611CC63DBF00ACEA29 /* AppDelegate.h */,
+				005F9F621CC63DBF00ACEA29 /* AppDelegate.m */,
+				005F9F641CC63DBF00ACEA29 /* ViewController.h */,
+				005F9F651CC63DBF00ACEA29 /* ViewController.m */,
+				005F9F671CC63DBF00ACEA29 /* Main.storyboard */,
+				005F9F6A1CC63DBF00ACEA29 /* Assets.xcassets */,
+				005F9F6C1CC63DBF00ACEA29 /* LaunchScreen.storyboard */,
+				005F9F6F1CC63DBF00ACEA29 /* Info.plist */,
+				005F9F5E1CC63DBF00ACEA29 /* Supporting Files */,
+				005F9FA61CC6469F00ACEA29 /* GratuityOneViewController.h */,
+				005F9FA71CC6469F00ACEA29 /* GratuityOneViewController.m */,
+				005F9FA91CC646BB00ACEA29 /* GratuityTwoViewController.h */,
+				005F9FAA1CC646BB00ACEA29 /* GratuityTwoViewController.m */,
+			);
+			path = GratuitiesAnimation;
+			sourceTree = "<group>";
+		};
+		005F9F5E1CC63DBF00ACEA29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				005F9F5F1CC63DBF00ACEA29 /* main.m */,
+				005F9F9F1CC63EFF00ACEA29 /* FramePCH.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		005F9F771CC63DBF00ACEA29 /* GratuitiesAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				005F9F781CC63DBF00ACEA29 /* GratuitiesAnimationTests.m */,
+				005F9F7A1CC63DBF00ACEA29 /* Info.plist */,
+			);
+			path = GratuitiesAnimationTests;
+			sourceTree = "<group>";
+		};
+		005F9F821CC63DBF00ACEA29 /* GratuitiesAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				005F9F831CC63DBF00ACEA29 /* GratuitiesAnimationUITests.m */,
+				005F9F851CC63DBF00ACEA29 /* Info.plist */,
+			);
+			path = GratuitiesAnimationUITests;
+			sourceTree = "<group>";
+		};
+		005F9F911CC63E4000ACEA29 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				005F9F9C1CC63EBF00ACEA29 /* UIView+Frame.h */,
+				005F9F9D1CC63EBF00ACEA29 /* UIView+Frame.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		005F9F921CC63E4000ACEA29 /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				005F9FA01CC63FAB00ACEA29 /* ZYSGratuityView.h */,
+				005F9FA11CC63FAB00ACEA29 /* ZYSGratuityView.m */,
+				005F9FA31CC6413100ACEA29 /* GratuityAlertView.h */,
+				005F9FA41CC6413100ACEA29 /* GratuityAlertView.m */,
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005F9F5A1CC63DBF00ACEA29 /* GratuitiesAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005F9F881CC63DBF00ACEA29 /* Build configuration list for PBXNativeTarget "GratuitiesAnimation" */;
+			buildPhases = (
+				005F9F571CC63DBF00ACEA29 /* Sources */,
+				005F9F581CC63DBF00ACEA29 /* Frameworks */,
+				005F9F591CC63DBF00ACEA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GratuitiesAnimation;
+			productName = GratuitiesAnimation;
+			productReference = 005F9F5B1CC63DBF00ACEA29 /* GratuitiesAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		005F9F731CC63DBF00ACEA29 /* GratuitiesAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005F9F8B1CC63DBF00ACEA29 /* Build configuration list for PBXNativeTarget "GratuitiesAnimationTests" */;
+			buildPhases = (
+				005F9F701CC63DBF00ACEA29 /* Sources */,
+				005F9F711CC63DBF00ACEA29 /* Frameworks */,
+				005F9F721CC63DBF00ACEA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005F9F761CC63DBF00ACEA29 /* PBXTargetDependency */,
+			);
+			name = GratuitiesAnimationTests;
+			productName = GratuitiesAnimationTests;
+			productReference = 005F9F741CC63DBF00ACEA29 /* GratuitiesAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		005F9F7E1CC63DBF00ACEA29 /* GratuitiesAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005F9F8E1CC63DBF00ACEA29 /* Build configuration list for PBXNativeTarget "GratuitiesAnimationUITests" */;
+			buildPhases = (
+				005F9F7B1CC63DBF00ACEA29 /* Sources */,
+				005F9F7C1CC63DBF00ACEA29 /* Frameworks */,
+				005F9F7D1CC63DBF00ACEA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005F9F811CC63DBF00ACEA29 /* PBXTargetDependency */,
+			);
+			name = GratuitiesAnimationUITests;
+			productName = GratuitiesAnimationUITests;
+			productReference = 005F9F7F1CC63DBF00ACEA29 /* GratuitiesAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005F9F531CC63DBF00ACEA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zyangshuang;
+				TargetAttributes = {
+					005F9F5A1CC63DBF00ACEA29 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					005F9F731CC63DBF00ACEA29 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 005F9F5A1CC63DBF00ACEA29;
+					};
+					005F9F7E1CC63DBF00ACEA29 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 005F9F5A1CC63DBF00ACEA29;
+					};
+				};
+			};
+			buildConfigurationList = 005F9F561CC63DBF00ACEA29 /* Build configuration list for PBXProject "GratuitiesAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 005F9F521CC63DBF00ACEA29;
+			productRefGroup = 005F9F5C1CC63DBF00ACEA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005F9F5A1CC63DBF00ACEA29 /* GratuitiesAnimation */,
+				005F9F731CC63DBF00ACEA29 /* GratuitiesAnimationTests */,
+				005F9F7E1CC63DBF00ACEA29 /* GratuitiesAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005F9F591CC63DBF00ACEA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F9F6E1CC63DBF00ACEA29 /* LaunchScreen.storyboard in Resources */,
+				005F9F6B1CC63DBF00ACEA29 /* Assets.xcassets in Resources */,
+				005F9F691CC63DBF00ACEA29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F9F721CC63DBF00ACEA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F9F7D1CC63DBF00ACEA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005F9F571CC63DBF00ACEA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F9FAB1CC646BB00ACEA29 /* GratuityTwoViewController.m in Sources */,
+				005F9FA51CC6413100ACEA29 /* GratuityAlertView.m in Sources */,
+				005F9F661CC63DBF00ACEA29 /* ViewController.m in Sources */,
+				005F9FA81CC6469F00ACEA29 /* GratuityOneViewController.m in Sources */,
+				005F9F631CC63DBF00ACEA29 /* AppDelegate.m in Sources */,
+				005F9F9E1CC63EBF00ACEA29 /* UIView+Frame.m in Sources */,
+				005F9F601CC63DBF00ACEA29 /* main.m in Sources */,
+				005F9FA21CC63FAB00ACEA29 /* ZYSGratuityView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F9F701CC63DBF00ACEA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F9F791CC63DBF00ACEA29 /* GratuitiesAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F9F7B1CC63DBF00ACEA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F9F841CC63DBF00ACEA29 /* GratuitiesAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		005F9F761CC63DBF00ACEA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005F9F5A1CC63DBF00ACEA29 /* GratuitiesAnimation */;
+			targetProxy = 005F9F751CC63DBF00ACEA29 /* PBXContainerItemProxy */;
+		};
+		005F9F811CC63DBF00ACEA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005F9F5A1CC63DBF00ACEA29 /* GratuitiesAnimation */;
+			targetProxy = 005F9F801CC63DBF00ACEA29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		005F9F671CC63DBF00ACEA29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005F9F681CC63DBF00ACEA29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		005F9F6C1CC63DBF00ACEA29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005F9F6D1CC63DBF00ACEA29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		005F9F861CC63DBF00ACEA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		005F9F871CC63DBF00ACEA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005F9F891CC63DBF00ACEA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GratuitiesAnimation/FramePCH.pch";
+				INFOPLIST_FILE = GratuitiesAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zys.GratuitiesAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		005F9F8A1CC63DBF00ACEA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GratuitiesAnimation/FramePCH.pch";
+				INFOPLIST_FILE = GratuitiesAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zys.GratuitiesAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		005F9F8C1CC63DBF00ACEA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GratuitiesAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zys.GratuitiesAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GratuitiesAnimation.app/GratuitiesAnimation";
+			};
+			name = Debug;
+		};
+		005F9F8D1CC63DBF00ACEA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GratuitiesAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zys.GratuitiesAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GratuitiesAnimation.app/GratuitiesAnimation";
+			};
+			name = Release;
+		};
+		005F9F8F1CC63DBF00ACEA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GratuitiesAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zys.GratuitiesAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GratuitiesAnimation;
+			};
+			name = Debug;
+		};
+		005F9F901CC63DBF00ACEA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GratuitiesAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zys.GratuitiesAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GratuitiesAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005F9F561CC63DBF00ACEA29 /* Build configuration list for PBXProject "GratuitiesAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F9F861CC63DBF00ACEA29 /* Debug */,
+				005F9F871CC63DBF00ACEA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005F9F881CC63DBF00ACEA29 /* Build configuration list for PBXNativeTarget "GratuitiesAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F9F891CC63DBF00ACEA29 /* Debug */,
+				005F9F8A1CC63DBF00ACEA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		005F9F8B1CC63DBF00ACEA29 /* Build configuration list for PBXNativeTarget "GratuitiesAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F9F8C1CC63DBF00ACEA29 /* Debug */,
+				005F9F8D1CC63DBF00ACEA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		005F9F8E1CC63DBF00ACEA29 /* Build configuration list for PBXNativeTarget "GratuitiesAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F9F8F1CC63DBF00ACEA29 /* Debug */,
+				005F9F901CC63DBF00ACEA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005F9F531CC63DBF00ACEA29 /* Project object */;
+}

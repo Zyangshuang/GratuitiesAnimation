@@ -1,0 +1,20 @@
+//
+//  FramePCH.pch
+//  GratuitiesAnimation
+//
+//  Created by zyangshuang on 16/4/19.
+//  Copyright © 2016年 zyangshuang. All rights reserved.
+//
+
+#ifndef FramePCH_pch
+#define FramePCH_pch
+
+#import "UIView+Frame.h"
+
+#define JKWindowWidth ([[UIScreen mainScreen] bounds].size.width)
+#define JKWindowHeight ([[UIScreen mainScreen] bounds].size.height)
+
+// 2.获得RGB颜色
+#define JKColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#endif /* FramePCH_pch */
